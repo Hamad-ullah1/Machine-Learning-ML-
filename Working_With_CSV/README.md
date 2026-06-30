@@ -1,56 +1,57 @@
-Feature Scaling
+Working with CSV Files
 
-This repository contains my practice work for Machine Learning course. The focus of this session is understanding and implementing **Feature Scaling** using Scikit-learn.
+This repository contains practice work of Machine Learning. The focus of this session is learning how to load, explore, and manipulate **CSV (Comma-Separated Values)** files using Pandas, which is one of the most common data formats used in data analysis and machine learning.
 
 ## 📌 Topics Covered
 
-- What is Feature Scaling?
-- Why Feature Scaling is important
-- Standardization (Z-score Scaling)
-- Normalization (Min-Max Scaling)
-- Difference between Standardization and Normalization
-- Applying feature scaling using Scikit-learn
-- Comparing model performance before and after scaling
+- Introduction to CSV files
+- Reading CSV files using Pandas
+- Exploring datasets
+- Handling common parameters in `read_csv()`
+- Working with rows and columns
+- Loading datasets for machine learning
+- Basic data inspection and preprocessing
 
 ## 🛠️ Technologies Used
 
 - Python
-- NumPy
 - Pandas
-- Matplotlib
-- Scikit-learn
+- NumPy
 - Jupyter Notebook
 
 ## 📂 Project Structure
 
 ```
-│── Feature_Scaling.ipynb
-│── dataset.csv
+│── Working_with_CSV_Files.ipynb
 └── README.md
 ```
 
 ## 📖 Learning Outcomes
 
-After completing this project, I learned:
+After completing this project, I learned how to:
 
-- Why feature scaling is essential for many machine learning algorithms.
-- How to use `StandardScaler` and `MinMaxScaler`.
-- When to choose Standardization over Normalization.
-- How feature scaling affects model performance.
+- Read CSV files efficiently using Pandas.
+- Load datasets into DataFrames.
+- Explore the structure of a dataset.
+- Access and inspect rows and columns.
+- Prepare CSV data for machine learning tasks.
 
 ## 🚀 How to Run
 
-1. Clone the repository.
-2. Open the Jupyter Notebook.
-3. Install the required libraries if needed:
-   ```bash
-   pip install numpy pandas matplotlib scikit-learn
-   ```
+1. Clone this repository.
+2. Install the required libraries (if needed):
+
+```bash
+pip install pandas numpy
+```
+
+3. Open the Jupyter Notebook.
 4. Run all notebook cells.
 
 ## 📚 Reference
 
-This project is based on the **CampusX Machine Learning** course and is intended for learning and educational purposes.
+This project is based on concepts learned from the **CampusX Machine Learning** course and is intended for learning and educational purposes.
 
 ---
-⭐ If you found this repository helpful, feel free to star it!
+
+⭐ This repository is part of my Machine Learning learning journey, where I practice each concept through hands-on implementation using Python and Pandas.
